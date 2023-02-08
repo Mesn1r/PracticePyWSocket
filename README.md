@@ -14,13 +14,16 @@ threading module
 ### **Usage**
 
 **1)** Clone or download the repository.
+
 **2)** Open a terminal window and navigate to the folder where the script is located.
+
 **3)** Run the script using the following command:
 
 ```
 python Serverside.py
 ```
 **4)** Open another terminal window and run the client-side script to connect to the chat server.
+
 **5)** Repeat step 4 for additional clients.
 
 ### **Script Explanation**
