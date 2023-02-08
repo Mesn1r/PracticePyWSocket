@@ -2,6 +2,7 @@
 
 ## Chat Server
 
+**###How*** it's related to cybersecurity ? actually it's not at all it's just practice in write code that i commit myself to do in order not to forget and rust my skills
 
 This script creates a simple chat server using Python's socket module. The server listens on a specified IP address and port and allows multiple clients to connect and communicate with each other. The script also keeps track of connected clients and their nicknames.
 
