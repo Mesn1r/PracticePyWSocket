@@ -1,34 +1,35 @@
 # PracticePyWSocket
 
-##Chat Server
+## Chat Server
 
 
 This script creates a simple chat server using Python's socket module. The server listens on a specified IP address and port and allows multiple clients to connect and communicate with each other. The script also keeps track of connected clients and their nicknames.
 
-###**Requirements**
-
+### ** Requirements **
+```
 Python 3.x
 socket module
 threading module
-Usage
+```
+### **Usage**
 
-**1)**Clone or download the repository.
-**2)**Open a terminal window and navigate to the folder where the script is located.
-**3)**Run the script using the following command:
+**1)** Clone or download the repository.
+**2)** Open a terminal window and navigate to the folder where the script is located.
+**3)** Run the script using the following command:
 
 ```
 python Serverside.py
 ```
-**4)**Open another terminal window and run the client-side script to connect to the chat server.
-**5)**Repeat step 4 for additional clients.
+**4)** Open another terminal window and run the client-side script to connect to the chat server.
+**5)** Repeat step 4 for additional clients.
 
-###**Script Explanation**
+### **Script Explanation**
 
-The script starts by importing the necessary modules: socket and threading.
+The script starts by importing the necessary modules: *socket* and *threading*.
 
-Next, it sets the host IP address and port number to listen on. The host IP address is set to 127.0.0.1 (localhost) and the port number is set to 55555.
+Next, it sets the host IP address and port number to listen on. The host IP address is set to *127.0.0.1* (localhost) and the port number is set to  *55555* .
 
-A socket object is then created using the socket module, with the IP address family (AF_INET) set to socket.AF_INET and the socket type (SOCK_STREAM) set to socket.SOCK_STREAM. The socket is then bound to the specified host and port using the bind method. The listen method is called to start listening for incoming connections.
+A socket object is then created using the socket module, with the IP address family *(AF_INET)* set to *socket.AF_INET* and the socket type *(SOCK_STREAM)* set to *socket.SOCK_STREAM*. The socket is then bound to the specified host and port using the *bind* method. The listen method is called to start listening for incoming connections.
 
 Two lists are created to keep track of connected clients: clients and nicknames.
 
