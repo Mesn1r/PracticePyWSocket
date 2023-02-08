@@ -5,7 +5,7 @@
 
 This script creates a simple chat server using Python's socket module. The server listens on a specified IP address and port and allows multiple clients to connect and communicate with each other. The script also keeps track of connected clients and their nicknames.
 
-### ** Requirements **
+### **Requirements**
 ```
 Python 3.x
 socket module
